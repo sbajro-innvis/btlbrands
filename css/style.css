@@ -1,0 +1,381 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.parallax-window {
+  min-height: 820px;
+  background: transparent;
+}
+
+.navbar .logo {
+  text-decoration: none;
+  margin: 20px 40px 40px;
+  color: white;
+  font-size: 18px;
+  font-family: 'Inter' ,sans-serif;
+}
+
+.navbar .logo:hover {
+  color: grey;
+}
+
+.navbar .nav {
+  margin: 0px 20px 0px;
+}
+
+.navbar .nav-item {
+  margin: 20px 20px 40px;
+}
+
+.navbar .nav-item .nav-link {
+  color: white;
+  font-family: 'Inter' ,sans-serif;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.navbar .nav-item .nav-link:hover {
+  color: grey;
+}
+
+.firstimage h1 {
+  color: white;
+  font-family: 'Inter' ,sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 57px;
+  margin: 170px 0px 45px;
+}
+
+.firstimage p {
+  color: white;
+  font-family: 'Inter' ,sans-serif;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.firstimage .button-skyhour {
+  width: 11%;
+  margin: auto;
+}
+
+.firstimage button {
+  background-color: transparent;
+  font-family: 'Inter' ,sans-serif;
+  font-size: 12px;
+  border: 2px solid white;
+  color: white;
+  letter-spacing: 2px;
+  padding: 10px 30px 10px;
+}
+
+.firstimage button:hover {
+  background-color: white;
+  color: black;
+}
+
+.secondimage h1 {
+  color: white;
+  font-family: 'Inter' ,sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 57px;
+  margin: 280px 0px 45px;
+}
+
+.secondimage p {
+  color: white;
+  font-family: 'Inter' ,sans-serif;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.secondimage .button-skyhour {
+  width: 11%;
+  margin: auto;
+}
+
+.secondimage button {
+  background-color: transparent;
+  font-family: 'Inter' ,sans-serif;
+  font-size: 12px;
+  border: 2px solid white;
+  color: white;
+  letter-spacing: 2px;
+  padding: 10px 30px 10px;
+}
+
+.secondimage button:hover {
+  background-color: white;
+  color: black;
+}
+
+.thirdimage h1 {
+  color: white;
+  font-family: 'Inter' ,sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 57px;
+  margin: 280px 0px 45px;
+}
+
+.thirdimage p {
+  color: white;
+  font-family: 'Inter' ,sans-serif;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.thirdimage .button-skyhour {
+  width: 11%;
+  margin: auto;
+}
+
+.thirdimage button {
+  background-color: transparent;
+  font-family: 'Inter' ,sans-serif;
+  font-size: 12px;
+  border: 2px solid white;
+  color: white;
+  letter-spacing: 2px;
+  padding: 10px 30px 10px;
+}
+
+.thirdimage button:hover {
+  background-color: white;
+  color: black;
+}
+
+.fourthimage h1 {
+  color: white;
+  font-family: 'Inter' ,sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 57px;
+  margin: 280px 0px 45px;
+}
+
+.fourthimage p {
+  color: white;
+  font-family: 'Inter' ,sans-serif;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.fourthimage .button-skyhour {
+  width: 11%;
+  margin: auto;
+}
+
+.fourthimage button {
+  background-color: transparent;
+  font-family: 'Inter' ,sans-serif;
+  font-size: 12px;
+  border: 2px solid white;
+  color: white;
+  letter-spacing: 2px;
+  padding: 10px 30px 10px;
+}
+
+.fourthimage button:hover {
+  background-color: white;
+  color: black;
+}
+
+.fifthimage h1 {
+  color: white;
+  font-family: 'Inter' ,sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 57px;
+  margin: 280px 0px 45px;
+}
+
+.fifthimage p {
+  color: white;
+  font-family: 'Inter' ,sans-serif;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.fifthimage .button-skyhour {
+  width: 11%;
+  margin: auto;
+}
+
+.fifthimage button {
+  background-color: transparent;
+  font-family: 'Inter' ,sans-serif;
+  font-size: 12px;
+  border: 2px solid white;
+  color: white;
+  letter-spacing: 2px;
+  padding: 10px 30px 10px;
+}
+
+.fifthimage button:hover {
+  background-color: white;
+  color: black;
+}
+
+.sixthimage h1 {
+  color: white;
+  font-family: 'Inter' ,sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 57px;
+  margin: 280px 0px 45px;
+}
+
+.sixthimage p {
+  color: white;
+  font-family: 'Inter' ,sans-serif;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.sixthimage .button-skyhour {
+  width: 11%;
+  margin: auto;
+}
+
+.sixthimage button {
+  background-color: transparent;
+  font-family: 'Inter' ,sans-serif;
+  font-size: 12px;
+  border: 2px solid white;
+  color: white;
+  letter-spacing: 2px;
+  padding: 10px 30px 10px;
+}
+
+.sixthimage button:hover {
+  background-color: white;
+  color: black;
+}
+
+.seventhimage h1 {
+  color: white;
+  font-family: 'Inter' ,sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 57px;
+  margin: 280px 0px 45px;
+}
+
+.seventhimage p {
+  color: white;
+  font-family: 'Inter' ,sans-serif;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.seventhimage .button-skyhour {
+  width: 11%;
+  margin: auto;
+}
+
+.seventhimage button {
+  background-color: transparent;
+  font-family: 'Inter' ,sans-serif;
+  font-size: 12px;
+  border: 2px solid white;
+  color: white;
+  letter-spacing: 2px;
+  padding: 10px 30px 10px;
+}
+
+.seventhimage button:hover {
+  background-color: white;
+  color: black;
+}
+
+.text {
+  background-color: #eeecec;
+  width: 100%;
+  height: 65vh;
+  text-align: center;
+  padding-top: 170px;
+}
+
+.text p {
+  margin: 30px auto 45px;
+  color: grey;
+  font-family: 'Inter' ,sans-serif;
+  font-size: 18px;
+  width: 49%;
+  line-height: 30px;
+}
+
+.text h6 {
+  color: grey;
+  font-family: 'Inter' ,sans-serif;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+.text button {
+  background-color: transparent;
+  font-family: 'Inter' ,sans-serif;
+  font-size: 12px;
+  border: 2px solid grey;
+  color: grey;
+  letter-spacing: 2px;
+  padding: 10px 30px 10px;
+  -webkit-transition: all .1s linear;
+  transition: all .1s linear;
+}
+
+.text button:hover {
+  background-color: grey;
+  font-family: 'Inter' ,sans-serif;
+  font-size: 12px;
+  border: 2px solid grey;
+  color: white;
+  letter-spacing: 2px;
+  padding: 10px 30px 10px;
+}
+
+#table {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+#table img {
+  width: 100%;
+  height: 100%;
+}
+
+#table .col-md-6 {
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  background-color: #2b2b2b;
+  height: 47vh;
+  color: grey;
+  text-align: center;
+  padding-top: 170px;
+  font-family: 'Inter' ,sans-serif;
+  font-size: 17px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a img {
+  margin: 20px 40px 0px;
+}
+/*# sourceMappingURL=style.css.map */
