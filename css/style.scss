@@ -54,7 +54,7 @@
         
     }
     .button-skyhour{
-        width:11%;
+        width:200px;
         margin: auto;
     }
     button{
@@ -64,7 +64,7 @@
         border:2px solid white;
         color:white;
         letter-spacing: 2px;
-        padding:10px 30px 10px
+        padding:10px 10px 10px
 
     }
     button:hover{
@@ -90,7 +90,7 @@
         
     }
     .button-skyhour{
-        width:11%;
+        width:200px;
         margin: auto;
     }
     button{
@@ -100,7 +100,7 @@
         border:2px solid white;
         color:white;
         letter-spacing: 2px;
-        padding:10px 30px 10px
+        padding:10px 10px 10px
 
     }
     button:hover{
@@ -126,7 +126,7 @@
         
     }
     .button-skyhour{
-        width:11%;
+        width:200px;
         margin: auto;
     }
     button{
@@ -136,7 +136,7 @@
         border:2px solid white;
         color:white;
         letter-spacing: 2px;
-        padding:10px 30px 10px
+        padding:10px 10px 10px
 
     }
     button:hover{
@@ -162,7 +162,7 @@
         
     }
     .button-skyhour{
-        width:11%;
+        width:200px;
         margin: auto;
     }
     button{
@@ -172,7 +172,7 @@
         border:2px solid white;
         color:white;
         letter-spacing: 2px;
-        padding:10px 30px 10px
+        padding:10px 10px 10px
 
     }
     button:hover{
@@ -198,7 +198,7 @@
         
     }
     .button-skyhour{
-        width:11%;
+        width:200px;
         margin: auto;
     }
     button{
@@ -208,7 +208,7 @@
         border:2px solid white;
         color:white;
         letter-spacing: 2px;
-        padding:10px 30px 10px
+        padding:10px 10px 10px
 
     }
     button:hover{
@@ -234,7 +234,7 @@
         
     }
     .button-skyhour{
-        width:11%;
+        width:200px;
         margin: auto;
     }
     button{
@@ -244,7 +244,7 @@
         border:2px solid white;
         color:white;
         letter-spacing: 2px;
-        padding:10px 30px 10px
+        padding:10px 10px 10px
 
     }
     button:hover{
@@ -270,7 +270,7 @@
         
     }
     .button-skyhour{
-        width:11%;
+        width:200px;
         margin: auto;
     }
     button{
@@ -280,7 +280,7 @@
         border:2px solid white;
         color:white;
         letter-spacing: 2px;
-        padding:10px 30px 10px
+        padding:10px 10px 10px
 
     }
     button:hover{
@@ -321,12 +321,8 @@
      }
      button:hover{
          background-color:grey;
-         font-family: 'Inter' ,sans-serif;
-         font-size: 12px;
          border: 2px solid grey;
          color: white;
-         letter-spacing: 2px;
-         padding:10px 30px 10px;
      }
 }
 #table{
@@ -357,3 +353,437 @@ footer{
 
     }
 }
+@media (max-width:1800px) {
+    .firstimage{
+        .button-skyhour{
+            width: 200px;
+        }
+        button{
+            padding:10px 10px 10px
+    
+        }
+    }  
+.secondimage{
+    .button-skyhour{
+        width: 200px;
+    }
+    button{
+        padding:10px 10px 10px
+
+    }
+}  
+.thirdimage{
+    .button-skyhour{
+        width: 200px;
+    }
+    button{
+        padding:10px 10px 10px
+
+    }
+}
+.fourthimage{
+    .button-skyhour{
+        width: 200px;
+    }
+    button{
+        padding:10px 10px 10px
+
+    }
+}
+.fifthimage{
+    .button-skyhour{
+        width: 200px;
+    }
+    button{
+        padding:10px 10px 10px
+
+    }
+}
+.sixthimage{
+    .button-skyhour{
+        width: 200px;
+    }
+    button{
+        padding:10px 10px 10px
+
+    }
+}
+.seventhimage{
+    .button-skyhour{
+        width: 200px;
+    }
+    button{
+        padding:10px 10px 10px
+
+    }
+}
+.text{
+    padding-top:100px;
+}
+footer{
+    height:47vh;
+    color:grey;
+    text-align: center;
+    padding-top:150px;
+    font-family: 'Inter' ,sans-serif;
+    font-size: 17px;
+    a{
+        text-decoration: none;
+    }
+    a img{
+        margin:20px 40px 0px;
+
+    }
+}
+}
+@media (max-width:1023px) and (min-width:768px) {
+    .firstimage{
+        .button-skyhour{
+            width: 200px;
+        }
+        button{
+            padding:10px 10px 10px
+    
+        }
+    }  
+.secondimage{
+    .button-skyhour{
+        width: 200px;
+    }
+    button{
+        padding:10px 10px 10px
+
+    }
+}  
+.thirdimage{
+    .button-skyhour{
+        width: 200px;
+    }
+    button{
+        padding:10px 10px 10px
+
+    }
+}
+.fourthimage{
+    .button-skyhour{
+        width: 200px;
+    }
+    button{
+        padding:10px 10px 10px
+
+    }
+}
+.fifthimage{
+    .button-skyhour{
+        width: 200px;
+    }
+    button{
+        padding:10px 10px 10px
+
+    }
+}
+.sixthimage{
+    .button-skyhour{
+        width: 200px;
+    }
+    button{
+        padding:10px 10px 10px
+
+    }
+}
+.seventhimage{
+    .button-skyhour{
+        width: 200px;
+    }
+    button{
+        padding:10px 10px 10px
+
+    }
+}
+.text{
+    width: 100%;
+    height:65vh;
+    padding-top:8%;
+     p{
+         margin: 30px auto 45px;
+         color:grey;
+         font-family: 'Inter' ,sans-serif;
+         font-size: 18px;
+         width: 49%;
+         line-height: 30px;
+         
+     }
+     h6{
+             color:grey;
+             font-family: 'Inter' ,sans-serif;
+             font-size: 14px;
+             margin-bottom: 40px;
+     }
+     button{
+         background-color:transparent;
+         font-family: 'Inter' ,sans-serif;
+         font-size: 12px;
+         border: 2px solid grey;
+         color:grey;
+         letter-spacing: 2px;
+         padding:10px 30px 10px;
+         transition: all .1s linear;
+     }
+     button:hover{
+         background-color:grey;
+         border: 2px solid grey;
+         color: white;
+     }
+}
+footer{
+    background-color: #2b2b2b;
+    height:47vh;
+    color:grey;
+    text-align: center;
+    padding-top:150px;
+    font-family: 'Inter' ,sans-serif;
+    font-size: 17px;
+    a{
+        text-decoration: none;
+    }
+    a img{
+        margin:20px 40px 0px;
+
+    }
+}
+}
+@media (max-width:767px) and (min-width:320px){
+    .text{
+        padding-top:50px;
+    }
+    .navbar{
+        .logo{
+            margin:20px 40px 40px;
+            font-size: 12px;
+    
+        }
+        .logo:hover{
+            color:grey;
+        }
+        .nav{
+            margin:0px 20px 0px;
+        }
+        .nav-item{
+            margin:20px 20px 40px;
+            
+            .nav-link{
+                color:white;
+                font-family: 'Inter' ,sans-serif ;
+                font-size: 12px;
+                padding:5px;
+            }
+        }
+    }
+    .firstimage{
+        h1{
+            font-size: 30px;
+            margin: 170px 0px 30px;
+        }
+        p{
+            font-size: 14px;
+            margin-bottom: 30px;
+            padding:0px 20px 0px;
+            
+        }
+        .button-skyhour{
+            width:150px;
+        }
+        button{
+            font-size: 10px;
+            border:2px solid white;
+            color:white;
+            padding:8px 10px 8px
+        }
+    }
+    .secondimage{
+        h1{
+            font-size: 30px;
+            margin: 300px 0px 30px;
+        }
+        p{
+            font-size: 14px;
+            margin-bottom: 30px;
+            padding:0px 20px 0px;
+            
+        }
+        .button-skyhour{
+            width:150px;
+        }
+        button{
+            font-size: 10px;
+            border:2px solid white;
+            color:white;
+            padding:8px 10px 8px
+        }
+    }
+    .thirdimage{
+        h1{
+            font-size: 30px;
+            margin: 320px 0px 30px;
+        }
+        p{
+            font-size: 14px;
+            margin-bottom: 30px;
+            padding:0px 20px 0px;
+            
+        }
+        .button-skyhour{
+            width:150px;
+        }
+        button{
+            font-size: 10px;
+            border:2px solid white;
+            color:white;
+            padding:8px 10px 8px
+        }
+    }
+    .fourthimage{
+        h1{
+            font-size: 30px;
+            margin: 300px 0px 30px;
+        }
+        p{
+            font-size: 14px;
+            margin-bottom: 30px;
+            padding:0px 20px 0px;
+            
+        }
+        .button-skyhour{
+            width:150px;
+        }
+        button{
+            font-size: 10px;
+            border:2px solid white;
+            color:white;
+            padding:8px 10px 8px
+        }
+    }
+    .fifthimage{
+        h1{
+            font-size: 30px;
+            margin: 320px 0px 30px;
+        }
+        p{
+            font-size: 14px;
+            margin-bottom: 30px;
+            padding:0px 30px 0px;
+            
+        }
+        .button-skyhour{
+            width:150px;
+        }
+        button{
+            font-size: 10px;
+            border:2px solid white;
+            color:white;
+            padding:8px 10px 8px
+        }
+    }
+    .sixthimage{
+        h1{
+            font-size: 30px;
+            margin: 300px 0px 30px;
+        }
+        p{
+            font-size: 14px;
+            margin-bottom: 30px;
+            padding:0px 30px 0px;
+            
+        }
+        .button-skyhour{
+            width:150px;
+        }
+        button{
+            font-size: 10px;
+            border:2px solid white;
+            color:white;
+            padding:8px 10px 8px
+        }
+    }
+    .seventhimage{
+        h1{
+            font-size: 30px;
+            margin: 300px 0px 30px;
+        }
+        p{
+            font-size: 14px;
+            margin-bottom: 30px;
+            padding:0px 30px 0px;
+            
+        }
+        .button-skyhour{
+            width:150px;
+        }
+        button{
+            font-size: 10px;
+            border:2px solid white;
+            color:white;
+            padding:8px 10px 8px
+        }
+    }
+    .text{
+        width: 100%;
+        height:65vh;
+        padding-top:22%;
+        padding-left: 20px;
+        padding-right: 20px;
+         p{
+             margin: 20px auto 45px;
+             font-size: 12px;
+             width: 90%;
+             line-height: 25px;        
+         }
+         h6{
+                 font-size: 10px;
+                 margin-bottom: 40px;
+         }
+         button{
+             font-size: 10px;
+             border: 2px solid grey;
+             color:grey;
+             letter-spacing: 1px;
+             padding:7px 10px 7px;
+         }
+    }
+    footer{
+        background-color: #2b2b2b;
+        height:47vh;
+        color:grey;
+        text-align: center;
+        padding-top:150px;
+        font-family: 'Inter' ,sans-serif;
+        font-size: 17px;
+        a{
+            text-decoration: none;
+        }
+        a img{
+            margin:20px 40px 0px;
+    
+        }
+    }
+}
+@media (max-width:372px){
+    footer{
+        background-color: #2b2b2b;
+        height:47vh;
+        color:grey;
+        text-align: center;
+        padding-top:80px;
+        font-family: 'Inter' ,sans-serif;
+        font-size: 14px;
+        a{
+            text-decoration: none;
+        }
+        a img{
+            margin:20px 40px 0px;
+    
+        }
+    }
+
+}
+    
