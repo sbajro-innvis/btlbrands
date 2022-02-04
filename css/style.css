@@ -50,6 +50,16 @@
   margin: 170px 0px 45px;
 }
 
+.firstimage h2 {
+  color: white;
+  font-family: 'Inter' ,sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  margin: 270px auto 45px;
+  width: 50%;
+}
+
 .firstimage p {
   color: white;
   font-family: 'Inter' ,sans-serif;
@@ -557,7 +567,7 @@ footer a img {
   }
   .firstimage h1 {
     font-size: 30px;
-    margin: 170px 0px 30px;
+    margin: 220px 0px 30px;
   }
   .firstimage p {
     font-size: 14px;
@@ -737,6 +747,31 @@ footer a img {
   }
   footer a img {
     margin: 20px 40px 0px;
+  }
+}
+
+@media (max-width: 439px) {
+  .navbar .logo {
+    text-decoration: none;
+    margin: 20px 20px 40px;
+    color: white;
+    font-size: 12px;
+    font-family: 'Inter' ,sans-serif;
+  }
+  .navbar .logo:hover {
+    color: grey;
+  }
+  .navbar .nav {
+    margin: 0px 20px 0px;
+  }
+  .navbar .nav-item {
+    margin: 10px 5px 35px;
+  }
+  .navbar .nav-item .nav-link {
+    color: white;
+    font-family: 'Inter' ,sans-serif;
+    font-size: 12px;
+    padding: 0px;
   }
 }
 /*# sourceMappingURL=style.css.map */

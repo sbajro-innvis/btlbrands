@@ -45,6 +45,17 @@
         font-size: 57px;
         margin: 170px 0px 45px;
     }
+    h2{
+        color:white;
+        font-family: 'Inter' ,sans-serif;
+        font-weight: bold;
+        text-align: center;
+        font-size: 30px;
+        margin: 270px auto 45px;
+        width:50%;
+
+
+    }
     p{
         color:white;
         font-family: 'Inter' ,sans-serif;
@@ -582,7 +593,7 @@ footer{
     .firstimage{
         h1{
             font-size: 30px;
-            margin: 170px 0px 30px;
+            margin: 220px 0px 30px;
         }
         p{
             font-size: 14px;
@@ -784,6 +795,35 @@ footer{
     
         }
     }
+
+}
+@media (max-width:439px){
+    .navbar{
+    .logo{
+        text-decoration: none;
+        margin:20px 20px 40px;
+        color:white;
+        font-size: 12px;
+        font-family: 'Inter' ,sans-serif ;
+
+    }
+    .logo:hover{
+        color:grey;
+    }
+    .nav{
+        margin:0px 20px 0px;
+    }
+    .nav-item{
+        margin:10px 5px 35px;
+        
+        .nav-link{
+            color:white;
+            font-family: 'Inter' ,sans-serif ;
+            font-size: 12px;
+            padding:0px;
+        }
+    }
+}
 
 }
     
