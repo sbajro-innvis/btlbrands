@@ -16,21 +16,27 @@ function validateForm(){
 
 
     if(nameInput.value.length < 1){
-        errorNodes[0].innerText = "Name field can not be empty";
+        errorNodes[0].innerText = "       Name field can not be empty";
         nameInput.classList.add("error-border");
         errorFlag = true;
     }
     if(!emailIsValid(email.value)){
-        errorNodes[1].innerText = "Invalid email address";
+        errorNodes[1].innerText = "      Invalid email address";
         email.classList.add("error-border");
         errorFlag = true;
     }
     if(message.value.length < 1){
-        errorNodes[2].innerText = "Please enter message";
+        errorNodes[2].innerText = "   Please enter message";
         message.classList.add("error-border");
         errorFlag = true;
     }
-    if(!errorFlag){
+    if(checkboxContact.checked==false){
+      errorNodes[3].innerText = "You need to agree to the terms and conditions";
+      message.classList.add("error-border");
+      errorFlag = true;
+  }
+
+    if(!errorFlag && checkboxContact.checked==true){
         success.innerText = "Message Sent Successfully";
         success.style.paddingTop="30px";
     }
@@ -68,7 +74,7 @@ var body = document.getElementsByTagName("body")[0];
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
   modal.style.display = "block";
-  body.style.overflowY = "hidden";
+  // body.style.overflowY = "hidden";
 }
 
 // When the user clicks on <span> (x), close the modal
@@ -87,7 +93,7 @@ window.onclick = function(event) {
 
 // the checkbox
 
-var checkboxContact = document.getElementById("checkbox-agree");//.getElementsById("checkbox-agree");
+var checkboxContact = document.getElementById("checkbox-agree");
 
 var checkboxTerms = document.getElementsByClassName("popup-checkbox")[0];
 
