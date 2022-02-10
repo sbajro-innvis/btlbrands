@@ -600,9 +600,15 @@ footer{
           color:rgb(82, 119, 153);
           margin: 0px 0px 20px;
       }
+      h2{
+        color:rgb(45, 76, 102);
+        margin:20px 0px 20px;
+        font-size: 20px;
+        font-weight: bold;
+      }
       p{
           margin-bottom: 10px;
-          color:rgb(45, 76, 102);
+          color:rgba(111, 123, 133, 0.959);
       }
 
     background-color: #fefefe;
@@ -1105,6 +1111,7 @@ footer{
           h1{
               color:rgb(82, 119, 153);
               margin: 0px 0px 20px;
+              font-size: 25px;
           }
           p{
               margin-bottom: 10px;
@@ -1115,7 +1122,7 @@ footer{
         margin: auto;
         padding: 20px;
         border: 1px solid #888;
-        width: 80%;
+        width: 95%;
         text-align: left;
         padding: 20px;
       }

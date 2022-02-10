@@ -662,9 +662,16 @@ input {
   margin: 0px 0px 20px;
 }
 
+.modal-content h2 {
+  color: #2d4c66;
+  margin: 20px 0px 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .modal-content p {
   margin-bottom: 10px;
-  color: #2d4c66;
+  color: rgba(111, 123, 133, 0.959);
 }
 
 /* The Close Button */
@@ -1112,13 +1119,14 @@ input {
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    width: 95%;
     text-align: left;
     padding: 20px;
   }
   .modal-content h1 {
     color: #527799;
     margin: 0px 0px 20px;
+    font-size: 25px;
   }
   .modal-content p {
     margin-bottom: 10px;

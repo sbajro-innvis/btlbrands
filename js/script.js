@@ -16,17 +16,17 @@ function validateForm(){
 
 
     if(nameInput.value.length < 1){
-        errorNodes[0].innerText = "       Name field can not be empty";
+        errorNodes[0].innerText = "Name field can not be empty";
         nameInput.classList.add("error-border");
         errorFlag = true;
     }
     if(!emailIsValid(email.value)){
-        errorNodes[1].innerText = "      Invalid email address";
+        errorNodes[1].innerText = "Invalid email address";
         email.classList.add("error-border");
         errorFlag = true;
     }
     if(message.value.length < 1){
-        errorNodes[2].innerText = "   Please enter message";
+        errorNodes[2].innerText = "Please enter message";
         message.classList.add("error-border");
         errorFlag = true;
     }
