@@ -15,7 +15,6 @@
   margin: 20px 40px 40px;
   color: white;
   font-size: 18px;
-  font-family: 'Inter' ,sans-serif;
 }
 
 .navbar .logo:hover {
@@ -465,6 +464,239 @@ footer a img {
   margin: 20px 40px 0px;
 }
 
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding: 100px 0px 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+  font-family: 'Inter' ,sans-serif;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 60%;
+  text-align: left;
+  padding: 50px;
+}
+
+.modal-content h1 {
+  color: #527799;
+  margin: 0px 0px 20px;
+}
+
+.modal-content p {
+  margin-bottom: 10px;
+  color: #2d4c66;
+}
+
+#overlay {
+  color: #1b3753;
+  font-weight: bold;
+  font-family: 'Inter' ,sans-serif;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+#overlay form {
+  max-width: 550px;
+  width: 90%;
+  background: white;
+  margin: 0 auto 0 auto;
+  padding: 40px;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 0px 100px rgba(255, 255, 255, 0.37);
+          box-shadow: 0px 0px 100px rgba(255, 255, 255, 0.37);
+  color: #1b3753;
+}
+
+#overlay h1 {
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+#overlay .label-contact {
+  display: block;
+  margin: 20px 0;
+}
+
+#overlay .input-contact, #overlay textarea {
+  width: 100%;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  resize: none;
+  border: none;
+  border-bottom: 1px solid #d3d3d3;
+  color: #1b3753;
+}
+
+#overlay input[type="text"]:focus, #overlay textarea:focus {
+  border-bottom: 1px solid #8493a1;
+}
+
+#overlay textarea::-webkit-scrollbar {
+  width: 4px;
+}
+
+#overlay textarea::-webkit-scrollbar-thumb {
+  background-color: #acb0b4;
+}
+
+#overlay .center {
+  text-align: center;
+  color: #1b3753;
+}
+
+#overlay input[type="submit"] {
+  margin-top: 30px;
+  width: 90%;
+  max-width: 200px;
+  background: -webkit-gradient(linear, left top, right top, from(#224869), to(#031d33));
+  background: linear-gradient(to right, #224869, #031d33);
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+#overlay input {
+  margin-right: 10px;
+}
+
+#overlay .error {
+  color: red;
+}
+
+#overlay .error-border {
+  border-bottom: 1px solid red;
+}
+
+#overlay #success {
+  color: #28A745;
+}
+
+.contact-us {
+  height: 120vh;
+  padding: 0;
+  margin: 0;
+}
+
+.tacbox {
+  padding: 1em;
+  margin: 1em;
+  border: 3px solid #c7dbe0;
+  background: -webkit-gradient(linear, left top, right top, from(#bcdefb), to(#d5dfe7));
+  background: linear-gradient(to right, #bcdefb, #d5dfe7);
+  max-width: 550px;
+  text-align: center;
+}
+
+input {
+  height: 2em;
+  width: 2em;
+  vertical-align: middle;
+}
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding: 100px 0px 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+  font-family: 'Inter' ,sans-serif;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 60%;
+  text-align: left;
+  padding: 50px;
+}
+
+.modal-content h1 {
+  color: #527799;
+  margin: 0px 0px 20px;
+}
+
+.modal-content p {
+  margin-bottom: 10px;
+  color: #2d4c66;
+}
+
+/* The Close Button */
+.close {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#termsand-conditions {
+  color: #2388e0;
+  text-decoration: underline;
+}
+
+#termsand-conditions:hover {
+  cursor: pointer;
+}
+
 @media (max-width: 1800px) {
   .firstimage .button-skyhour {
     width: 200px;
@@ -619,6 +851,47 @@ footer a img {
   }
   footer a img {
     margin: 20px 40px 0px;
+  }
+  .modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding: 100px 0px 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: black;
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    font-family: 'Inter' ,sans-serif;
+  }
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    text-align: left;
+    padding: 20px;
+  }
+  .modal-content h1 {
+    color: #527799;
+    margin: 0px 0px 20px;
+  }
+  .modal-content p {
+    margin-bottom: 10px;
+    color: #2d4c66;
   }
 }
 
@@ -809,6 +1082,47 @@ footer a img {
   }
   footer a img {
     margin: 20px 40px 0px;
+  }
+  .modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding: 100px 0px 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: black;
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    font-family: 'Inter' ,sans-serif;
+  }
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    text-align: left;
+    padding: 20px;
+  }
+  .modal-content h1 {
+    color: #527799;
+    margin: 0px 0px 20px;
+  }
+  .modal-content p {
+    margin-bottom: 10px;
+    color: #2d4c66;
   }
 }
 
